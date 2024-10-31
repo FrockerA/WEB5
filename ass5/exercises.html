@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <link rel="stylesheet" href="css.css">
+  </head>
+  <body>
+    <h1>Task 1</h1>
+    <h2>Results</h2>
+    <p id="nearest"></p>
+    <p id="farthest"></p>
+    <script src="index.js"></script>
+
+    <br>
+
+    <h1>Task 2</h1>
+    <input type="text" id="inputText" placeholder="Enter your sentence here">
+    <button onclick="sortWords()">Sort Words</button>
+    <h2>Result</h2>
+    <p id="output"></p>
+    <script src="ex2.js"></script>
+
+
+    <br>
+
+    <h1>Task 3</h1>
+    <input type="text" id="charInput" placeholder="Enter characters to find first non-repeated">
+    <button onclick="findFirstNonRepeated()">Find First Non-Repeated Character</button>
+    <h2>Result</h2>
+    <p id="nonRepeatedOutput"></p>
+    <script src="ex3.js"></script>
+    
+    <br>
+
+    <h1>Task 4</h1>
+    <input type="text" id="alphabetInput" placeholder="Enter characters to shift">
+    <button onclick="shiftCharacters()">Shift Characters</button>
+    <script src="ex4.js"></script>
+    
+    <br>
+
+    <h1>Task 5</h1>
+    <button onclick="findLongestAndShortest()">Find Longest and Shortest Words</button>
+    <h2>Results</h2>
+    <p id="longest"></p>
+    <p id="shortest"></p>
+    <script src="ex5.js"></script>
+
+    <br>
+
+    <h1>Task 6</h1>
+    <p id="p">Dota 2 is a multiplayer team-based MOBA computer game developed and published by Valve Corporation. The game is a sequel to DotA, a custom map modification for Warcraft III: Reign of Chaos and its add-on Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling different "heroes" - characters with different sets of abilities and characteristics. To win a match, a team must destroy a special object - a "fortress" belonging to the enemy side - and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with micropayments.</p>
+    <script src="ex6.js"></script>
+
+    <br>
+
+    <h1>Task 7</h1>
+    <p id="pa">????????????????Dota 2 is a multiplayer team-based MOBA computer game developed and published by Valve Corporation. The game is a sequel to DotA, a custom map modification for Warcraft III: Reign of Chaos and its add-on Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling different "heroes" - characters with different sets of abilities and characteristics. To win a match, a team must destroy a special object - a "fortress" belonging to the enemy side - and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with micropayments.</p>
+    <button onclick="replaceQuestionMarks()">Replace '?' with '*'</button>
+    <script src="ex7.js"></script>
+
+    <br>
+
+    <h1>Task 8</h1>
+    <p id="par">Dota 2 is a multiplayer team-based MOBA computer game developed and published by Valve Corporation. The game is a sequel to DotA, a custom map modification for Warcraft III: Reign of Chaos and its add-on Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling different "heroes" - characters with different sets of abilities and characteristics. To win a match, a team must destroy a special object - a "fortress" belonging to the enemy side - and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with micropayments.</p>
+    <button onclick="splitSentences()">Split Sentences</button>
+    <script src="ex8.js"></script>
+
+    <br>
+
+    <h1>Task 9</h1>
+    <p id="para">Dota 2 is a multiplayer team-based MOBA computer game developed and published by Valve Corporation. The game is a sequel to DotA, a custom map modification for Warcraft III: Reign of Chaos and its add-on Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling different "heroes" - characters with different sets of abilities and characteristics. To win a match, a team must destroy a special object - a "fortress" belonging to the enemy side - and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with micropayments.</p>
+    <button onclick="countWords()">Count Words</button>
+    <script src="ex9.js"></script>
+
+    <br>
+
+    <h1>Task 10</h1>
+    <p id="parag">Dota 2 is a multiplayer team-based MOBA computer game developed and published by Valve Corporation. The game is a sequel to DotA, a custom map modification for Warcraft III: Reign of Chaos and its add-on Warcraft III: The Frozen Throne. The game depicts a battle on a special kind of map; each match involves two teams of five players controlling different "heroes" - characters with different sets of abilities and characteristics. To win a match, a team must destroy a special object - a "fortress" belonging to the enemy side - and protect its own "fortress" from destruction. Dota 2 operates on a free-to-play model with micropayments.</p>
+    <button onclick="highlightWords()">Highlight Words</button>
+    <script src="ex10.js"></script>1ёё
+
+    <br>
+
+    <h2>Task 11: Volume of a Sphere</h2>
+    <label for="radiusSphere">Radius:</label>
+    <input type="number" id="radiusSphere">
+    <label for="volumeSphere">Volume:</label>
+    <input type="text" id="volumeSphere" readonly>
+    <button onclick="calculateSphereVolume()">Calculate</button>
+
+    <br>
+
+    <h2>Task 12: Volume of a Cylinder</h2>
+    <label for="radiusCylinder">Radius:</label>
+    <input type="number" id="radiusCylinder">
+    <label for="heightCylinder">Height:</label>
+    <input type="number" id="heightCylinder">
+    <label for="volumeCylinder">Volume:</label>
+    <input type="text" id="volumeCylinder" readonly>
+    <button onclick="calculateCylinderVolume()">Calculate</button>
+
+    <br>
+
+    <h2>Task 13: Volume of a Cone</h2>
+    <label for="radiusCone">Radius:</label>
+    <input type="number" id="radiusCone">
+    <label for="heightCone">Height:</label>
+    <input type="number" id="heightCone">
+    <label for="volumeCone">Volume:</label>
+    <input type="text" id="volumeCone" readonly>
+    <button onclick="calculateConeVolume()">Calculate</button>
+
+    <br>
+
+    <h2>Task 14: Volume of a Prism</h2>
+    <label for="baseA">Base A:</label>
+    <input type="number" id="baseA">
+    <label for="baseB">Base B:</label>
+    <input type="number" id="baseB">
+    <label for="heightPrism">Height:</label>
+    <input type="number" id="heightPrism">
+    <label for="volumePrism">Volume:</label>
+    <input type="text" id="volumePrism" readonly>
+    <button onclick="calculatePrismVolume()">Calculate</button>
+
+    <br>
+
+    <h2>Task 15: Area of a Triangle</h2>
+    <label for="baseTriangle">Base:</label>
+    <input type="number" id="baseTriangle">
+    <label for="heightTriangle">Height:</label>
+    <input type="number" id="heightTriangle">
+    <label for="areaTriangle">Area:</label>
+    <input type="text" id="areaTriangle" readonly>
+    <button onclick="calculateTriangleArea()">Calculate</button>
+    <script src ="ex11-15.js"></script>
+
+    <br>
+
+    <div id="sidebarz" class="sidebarz">
+    <div id="sidebar" class="sidebar">
+      <button onclick="closeSidebar()" class="close-btn">&times;</button>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  
+    <div class="main-content">
+      <button onclick="openSidebar()" class="open-btn">☰ Open Sidebar</button>
+      <h1>Heres the sidebar</h1>
+    </div>
+    </div>
+    <script src="sidebar.js"></script>
+
+    <br>
+
+    <div class="calendarz">
+      <div class="container">
+        <div class="month"></div>
+        <div class="day"></div>
+        <div class="date"></div>
+        <div class="year"></div>
+      </div>
+      </div>
+      <script src="calendar.js"></script>
+
+      <br>
+
+      <h2>Drag and Drop</h2>
+      <div class="drag">
+        <div id="left">
+          <div class="list" draggable="true"><img src="drag_drop_icon.png">List item 1</div>
+          <div class="list" draggable="true"><img src="drag_drop_icon.png">List item 2</div>
+          <div class="list" draggable="true"><img src="drag_drop_icon.png">List item 3</div>
+          <div class="list" draggable="true"><img src="drag_drop_icon.png">List item 4</div>
+        </div>
+        <div id="right"></div>
+      </div>
+      <script src="draganddrop.js"></script>
+
+      <br>
+
+      <div class="game-container">
+        <h1>Rock, Paper, Scissors</h1>
+        <div class="choices">
+          <button onclick="playGame('rock')">Rock</button>
+          <button onclick="playGame('paper')">Paper</button>
+          <button onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <div class="result">
+          <p id="result-text"></p>
+        </div>
+      </div>
+      <script src="game.js"></script>
+
+      <br>
+
+      <div class="clock-container">
+        <h1 id="clock">00:00:00</h1>
+      </div>
+      <script src="clock.js"></script>
+  </body>
+</html>
